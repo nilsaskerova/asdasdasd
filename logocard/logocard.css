@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+}
+
+.card{
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0;
+    margin: 50px 0 0  570px ;
+    background-color: bisque;
+    padding: 90px ;
+    width: 400px;
+    transition: 1.5;
+}
+
+.card:hover{
+    scale: 1.1;
+    box-shadow: 0 20px 20px 0;
+}
+
+.content{
+    margin: 10px -30px auto;
+    width: 290px ;
+}
+
+.img{
+
+    margin: -30px -39px  0 -39px ;
+}
+
+ul{
+    list-style: '(^人^) ';
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#h{
+    color: orangered;
+}
+
+#c{
+    color: rgb(56, 82, 213);
+}
+
+#j{
+    color: rgb(230, 191, 50);
+}
+
+#r{
+    color: aqua;
+}

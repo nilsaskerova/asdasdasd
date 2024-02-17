@@ -1,0 +1,137 @@
+body {
+    /* background-color: #aca5de; 
+    background-image:url('kuromi.png'); 
+    background-repeat: no-repeat; 
+    background-size: 400px; 
+    background-position: right bottom; 
+    background-attachment: fixed; 
+    */
+    background: #bfa1e8 url('img/kuromi.png') right bottom/400px no-repeat fixed ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size:2,4em;
+    font-weight: 700;
+    font-style: italic;
+    font-variant:small-caps ;     
+    */
+    font:  italic small-caps 2.4em Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    text-align: center;
+    text-shadow: -3px -2px 5px black ;
+    background-color: rgb(61, 5, 61);
+    width: 700px;
+    margin: auto;
+}
+h2 {
+    font-weight: normal;
+    font-size: 1.8em ;
+    color: rgb(3, 54, 3);
+    text-decoration: overline 1px wavy rgb(54, 88, 155);     /*underline line-through dotted dashed double wavy */
+    text-transform: uppercase ;
+    letter-spacing:0.3em ;
+    word-spacing: 0.6em ;
+}
+ul {
+    list-style: '🫶' ;
+} 
+p {
+    color: blueviolet; 
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 1.5;
+    background-color:  rgb(61, 5, 61, 0.5);
+   /* opacity:0.5; */
+}
+p:nth-of-type(2):first-letter{
+    font: bold 50em ;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-shadow: 0 0 5px red;
+    margin: 0 5px 0 0;
+}
+img {
+    width:400px;
+    height:400px;
+    object-fit: cover;
+    shape-outside: circle(50%);
+    float: left;
+    background-color: beige;
+    border: 2px solid #333 ;
+    border-radius: 50% ;
+    padding: 20px ;
+    margin: 0 30px 5px 0;
+}
+ #epiqraf{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .3em;
+ }
+
+ .tek{
+    color: rgb(160, 160, 212);
+ }
+
+ .cut{
+    color: rgb(230, 186, 230);
+ }
+ li.tek{
+    font-weight: bold;
+ }
+ li.cut{
+    font-weight: italic;
+ }
+ #menu{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+ }
+ #menu li a{
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(304, 82%, 55%);
+    width: 200px; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px  black;
+ }
+ #menu li{
+    display: inline; 
+    margin: 20px; 
+ }
+/* #menu li a:link{} */
+/* #menu li a:visited{} */
+
+ #menu li a:hover{
+    color: rgb(7, 0, 7);
+    background-color: rgb(236, 236, 236);
+ }
+ #menu li a:active{
+    color: white;
+    background-color: #333;
+    box-shadow: 0 0 10px #333;
+ }
+ table{
+    border-collapse: collapse;
+    margin: auto;
+ }
+ th{
+    background-color: purple;
+    color: aliceblue;
+ }      
+ td, th{
+    border: 1px solid #333;
+    padding: 10px 20px;
+    text-align: center;
+    width: 50px;
+ }
+ tr:nth-child(odd){
+background: rgba(255, 255, 255, 0.463);
+ }
+ tr:nth-child(even){
+background: rgba(128, 0, 128, 0.47);
+ }

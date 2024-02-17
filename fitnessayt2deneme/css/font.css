@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/Myriad/MYRIADPRO-REGULAR.woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../font/Myriad/MYRIADPRO-BOLD.woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next Rounded Std';
+    src: url('../font/Avenir/AvenirNextRoundedStd-Reg.woff');
+}

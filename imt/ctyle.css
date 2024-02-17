@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(238, 134, 65), rgb(251, 41, 178), rgb(110, 3, 87));
+}
+
+.card {
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px 1px;
+    margin: 9vh auto;
+    width: 385px;
+    transition: 1.5s;
+    background-color: #fff;
+}
+
+.card:hover{
+    scale: 1.1;
+    box-shadow: 0 20px 20px 0;
+}
+
+.div1 {
+    background-color: rgb(51, 50, 50);
+    width: 360px;
+    padding: 8px 10px;
+    margin: 10px 12px;
+    border-radius: 5px;
+}
+
+.div2{
+    background-color: rgb(175, 191, 206);
+    width: 360px;
+    padding: 20px 10px;
+    margin: 10px 12px;
+    border-radius: 15px;
+    transition: 1.5s;
+}
+
+.div2:hover{
+   scale: .8;
+   background-color: #fff; 
+   background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.divgreen{
+    background-color: rgb(21, 255, 0);  
+    width: 360px;
+    padding: 20px 10px;
+    margin: 10px 12px;
+    border-radius: 15px; 
+    text-decoration: line-through;
+    transition: 1.5s
+}
+
+.divgreen:hover{
+    scale: .8;
+    background-color: #fff; 
+    text-decoration: none;
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.fa-trash{
+    float: right;
+    color: red;
+}
+
+.fa-check{
+    float: right;
+    color: green;
+}
+
+
+.fa-trash:hover{
+    transform: rotate(30deg);
+    -webkit-text-fill-color: #000;
+}
